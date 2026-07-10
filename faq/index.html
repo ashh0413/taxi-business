@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Taxi Hub FAQ - Frequently asked questions about our taxi service, bookings, pricing, and policies.">
+  <title>FAQ | Taxi Hub Goa</title>
+  <link rel="icon" type="image/png" href="../favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Montserrat:wght@300;400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+<div class="shell">
+
+  <!-- TOP NAVIGATION -->
+  <header class="topnav">
+    <a href="/" class="logo">
+      <span class="logo-goa">TAXI HUB</span>
+      <span class="logo-rides">YOUR GO-TO TAXI SERVICE</span>
+    </a>
+    <nav class="desktop-nav">
+      <a href="/">Home</a>
+      <a href="/fleet">Fleet</a>
+      <a href="/sightseeing">Sightseeing</a>
+      <a href="/contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" onclick="ThemeManager.toggle()" aria-label="Toggle theme">
+      <svg class="icon-sun" viewBox="0 0 24 24"><path d="M12 7a5 5 0 100 10 5 5 0 000-10zM12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+    </button>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" style="min-height: 260px;">
+    <div class="hero-bg" style="background-image: url('../ui/2.png');"></div>
+    <div class="hero-content">
+      <p class="tagline">Got Questions?</p>
+      <h1 class="hero-h1" style="font-size: 40px;">F.A.Q</h1>
+      <span class="hero-script" style="font-size: 32px;">We've Got Answers</span>
+    </div>
+  </section>
+
+  <!-- BOOKING FAQ -->
+  <section class="section">
+    <div class="section-header">
+      <p class="section-label">Bookings</p>
+      <h2 class="section-title">How It Works</h2>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-item open">
+        <div class="accordion-header">
+          <span class="accordion-question">How do I book a taxi?</span>
+          <div class="accordion-icon">
+            <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+          </div>
+        </div>
+        <div class="accordion-content">
+          <p class="accordion-answer">Easy! Just WhatsApp or call us. Tell us your date, pickup location, destination, and number of passengers. We'll confirm your booking within minutes. No advance payment needed - pay after your trip.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-question">Do I need to pay in advance?</span>
+          <div class="accordion-icon">
+            <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+          </div>
+        </div>
+        <div class="accordion-content">
+          <p class="accordion-answer">No advance payment required! For most bookings, you pay after your trip is complete. For airport transfers or long outstation trips, we may ask for a small advance to confirm. This will be clearly communicated upfront.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-question">How far in advance should I book?</span>
+          <div class="accordion-icon">
+            <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+          </div>
+        </div>
+        <div class="accordion-content">
+          <p class="accordion-answer">For airport transfers, please book at least 4 hours in advance. For sightseeing tours, same-day bookings are usually fine, but we recommend booking a day before. During peak season (Nov-Feb), book 2-3 days ahead to ensure availability.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-question">Can I cancel or reschedule?</span>
+          <div class="accordion-icon">
+            <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+          </div>
+        </div>
+        <div class="accordion-content">
+          <p class="accordion-answer">Absolutely! We understand plans change. Just WhatsApp or call us as soon as possible. There are no cancellation fees - we just ask that you give us at least 2 hours notice for local trips and 6 hours for airport transfers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- PRICING FAQ -->
+  <section class="section">
+    <div class="section-header">
+      <p class="section-label">Pricing</p>
+      <h2 class="section-title">Costs & Rates</h2>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-question">Are prices per person?</span>
+          <div class="accordion-icon">
+            <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+          </div>
+        </div>
+        <div class="accordion-content">
+          <p class="accordion-answer">No! All our prices are for the entire vehicle, not per person. Whether you're traveling solo or with a full car of 7 people, you pay the same fixed price. This makes us much better value than per-person options!</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-question">What about tolls and parking?</span>
+          <div class="accordion-icon">
+            <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+          </div>
+        </div>
+        <div class="accordion-content">
+          <p class="accordion-answer">Toll charges are included in our quoted prices for local trips. For sightseeing tours, any entry fees to attractions (like fort entrances) are not included and you'll pay those directly. Parking fees are included in our prices.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-question">Is there a minimum charge?</span>
+          <div class="accordion-icon">
+            <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+          </div>
+        </div>
+        <div class="accordion-content">
+          <p class="accordion-answer">Our minimum booking is for 4 hours at hourly rates. For airport drops under 3 hours, we have fixed short-trip rates. Contact us and we'll give you the best quote for your needs.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-question">Do prices change during peak season?</span>
+          <div class="accordion-icon">
+            <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+          </div>
+        </div>
+        <div class="accordion-content">
+          <p class="accordion-answer">Our base prices remain the same year-round. During peak season (Christmas/New Year), some special packages may have holiday rates. We'll always communicate any pricing changes clearly before you confirm your booking.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- SERVICE FAQ -->
+  <section class="section">
+    <div class="section-header">
+      <p class="section-label">Service</p>
+      <h2 class="section-title">Our Vehicles</h2>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-question">What vehicles do you have?</span>
+          <div class="accordion-icon">
+            <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+          </div>
+        </div>
+        <div class="accordion-content">
+          <p class="accordion-answer">We have three vehicle types: Maruti Baleno (sedan, 5 seats), Maruti Ertiga (MPV, 7 seats), and Mahindra Marazzo (SUV, 7-8 seats). All vehicles are AC, clean, and well-maintained.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-question">Can I request a specific vehicle?</span>
+          <div class="accordion-icon">
+            <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+          </div>
+        </div>
+        <div class="accordion-content">
+          <p class="accordion-answer">Yes! While we can't guarantee a specific vehicle, we always note your preference. On the rare occasion we need to substitute, we'll inform you and ensure you get a comparable or better vehicle at the same price.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-question">Do drivers speak English?</span>
+          <div class="accordion-icon">
+            <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+          </div>
+        </div>
+        <div class="accordion-content">
+          <p class="accordion-answer">Yes! All our drivers speak conversational English. Many also speak other languages including Hindi, Konkani, and some basic Russian/German phrases from serving international tourists.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-question">What if I need the car for longer than planned?</span>
+          <div class="accordion-icon">
+            <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+          </div>
+        </div>
+        <div class="accordion-content">
+          <p class="accordion-answer">No problem! Just tell your driver or WhatsApp us. We'll calculate the extra time at our hourly rate and arrange everything seamlessly. There's no penalty for extending your trip.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- AIRPORT FAQ -->
+  <section class="section">
+    <div class="section-header">
+      <p class="section-label">Airport</p>
+      <h2 class="section-title">Transfers</h2>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-question">How do airport transfers work?</span>
+          <div class="accordion-icon">
+            <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+          </div>
+        </div>
+        <div class="accordion-content">
+          <p class="accordion-answer">Book via WhatsApp with your flight details. We'll track your flight and have a driver waiting at arrivals with your name on a board. The driver will help with luggage and take you directly to your destination. Simple!</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-question">What if my flight is delayed?</span>
+          <div class="accordion-icon">
+            <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+          </div>
+        </div>
+        <div class="accordion-content">
+          <p class="accordion-answer">We monitor all flights, so we know about delays. Your driver will wait without extra charge. We include 30 minutes of free waiting time after your flight lands - more than enough for luggage collection and meeting.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-question">Do you pick up from both airports?</span>
+          <div class="accordion-icon">
+            <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+          </div>
+        </div>
+        <div class="accordion-content">
+          <p class="accordion-answer">Yes! We service both Dabolim Airport (GOI) near Vasco and Mopa Airport (GOX) in North Goa. Just let us know which airport and your destination.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STILL HAVE QUESTIONS -->
+  <section class="section">
+    <div class="glass-card" style="padding: 32px; text-align: center;">
+      <h3 style="font-family: var(--font-display); font-size: 24px; margin-bottom: 12px;">Still Have Questions?</h3>
+      <p style="font-size: 13px; color: var(--text-secondary); margin-bottom: 20px;">We're happy to help! Just send us a WhatsApp.</p>
+      <a href="https://wa.me/917709937904?text=Hi%2C%20I%20have%20a%20question%20about%20your%20service." class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Ask via WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p class="footer-logo">TAXI HUB</p>
+    <p class="footer-tagline">Driven by Trust. Defined by Care.</p>
+    <div class="footer-links">
+      <a href="/" class="footer-link">Home</a>
+      <a href="/fleet" class="footer-link">Fleet</a>
+      <a href="/sightseeing" class="footer-link">Sightseeing</a>
+      <a href="/contact" class="footer-link">Contact</a>
+      <a href="/privacy" class="footer-link">Privacy</a>
+      <a href="/terms" class="footer-link">Terms</a>
+    </div>
+    <p class="footer-copy">© 2025 Taxi Hub, Goa. All rights reserved.</p>
+  </footer>
+
+  <div class="footer-spacer"></div>
+
+  <!-- BOTTOM NAVIGATION -->
+  <nav class="bottom-nav glass-bottom-nav">
+    <a href="/" class="nav-item">
+      <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+      <span>Home</span>
+    </a>
+    <a href="/fleet" class="nav-item">
+      <svg viewBox="0 0 24 24"><path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"/></svg>
+      <span>Fleet</span>
+    </a>
+    <a href="/sightseeing" class="nav-item">
+      <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+      <span>Sightsee</span>
+    </a>
+    <a href="/contact" class="nav-item">
+      <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+      <span>Contact</span>
+    </a>
+  </nav>
+
+</div>
+<script src="../js/main.js"></script>
+</body>
+</html>

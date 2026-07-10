@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Taxi Hub travel tips - Expert advice for visiting Goa. Best time to visit, safety tips, and local insights.">
+  <title>Travel Tips | Taxi Hub Goa</title>
+  <link rel="icon" type="image/png" href="../favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Montserrat:wght@300;400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+<div class="shell">
+
+  <!-- TOP NAVIGATION -->
+  <header class="topnav">
+    <a href="/" class="logo">
+      <span class="logo-goa">TAXI HUB</span>
+      <span class="logo-rides">YOUR GO-TO TAXI SERVICE</span>
+    </a>
+    <nav class="desktop-nav">
+      <a href="/">Home</a>
+      <a href="/fleet">Fleet</a>
+      <a href="/sightseeing">Sightseeing</a>
+      <a href="/contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" onclick="ThemeManager.toggle()" aria-label="Toggle theme">
+      <svg class="icon-sun" viewBox="0 0 24 24"><path d="M12 7a5 5 0 100 10 5 5 0 000-10zM12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+    </button>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" style="min-height: 260px;">
+    <div class="hero-bg" style="background-image: url('../ui/1.png');"></div>
+    <div class="hero-content">
+      <p class="tagline">Local Insights</p>
+      <h1 class="hero-h1" style="font-size: 38px;">TRAVEL<br>TIPS</h1>
+      <span class="hero-script" style="font-size: 32px;">Goa Like a Pro</span>
+    </div>
+  </section>
+
+  <!-- BEST TIME TO VISIT -->
+  <section class="section">
+    <div class="section-header">
+      <p class="section-label">Planning</p>
+      <h2 class="section-title">Best Time to Visit</h2>
+    </div>
+
+    <div class="glass-card" style="padding: 20px;">
+      <div style="display: grid; gap: 16px;">
+        <div style="display: flex; gap: 12px; padding-bottom: 16px; border-bottom: 1px solid var(--glass-border);">
+          <div style="width: 48px; height: 48px; background: rgba(34, 197, 94, 0.15); border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+            <svg viewBox="0 0 24 24" style="width: 24px; height: 24px; fill: var(--success);"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm4.24 16L12 15.45 7.77 18l1.41-1.41-2.88-2.88 2.88-2.88L10.59 10l2.88 2.88L10.59 15l2.88-2.88L16.24 15z"/></svg>
+          </div>
+          <div>
+            <h4 style="font-size: 15px; font-weight: 600; margin-bottom: 4px;">November - February</h4>
+            <p style="font-size: 12px; color: var(--text-muted);">Peak season. Pleasant weather (20-30°C), festivals, and vibrant nightlife. Book early for best rates!</p>
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 12px; padding-bottom: 16px; border-bottom: 1px solid var(--glass-border);">
+          <div style="width: 48px; height: 48px; background: rgba(245, 158, 11, 0.15); border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+            <svg viewBox="0 0 24 24" style="width: 24px; height: 24px; fill: var(--warning);"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm4.24 16L12 15.45 7.77 18l1.41-1.41-2.88-2.88 2.88-2.88L10.59 10l2.88 2.88L10.59 15l2.88-2.88L16.24 15z"/></svg>
+          </div>
+          <div>
+            <h4 style="font-size: 15px; font-weight: 600; margin-bottom: 4px;">March - May</h4>
+            <p style="font-size: 12px; color: var(--text-muted);">Off-season. Hotter (30-40°C) but fewer crowds. Great for budget travelers. Monsoon starts late May.</p>
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 12px;">
+          <div style="width: 48px; height: 48px; background: rgba(59, 130, 246, 0.15); border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+            <svg viewBox="0 0 24 24" style="width: 24px; height: 24px; fill: #3b82f6;"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm4.24 16L12 15.45 7.77 18l1.41-1.41-2.88-2.88 2.88-2.88L10.59 10l2.88 2.88L10.59 15l2.88-2.88L16.24 15z"/></svg>
+          </div>
+          <div>
+            <h4 style="font-size: 15px; font-weight: 600; margin-bottom: 4px;">June - October</h4>
+            <p style="font-size: 12px; color: var(--text-muted);">Monsoon season. Lush greenery, dramatic waterfalls (Dudhsagar at full flow!), and lowest prices.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- PACKING TIPS -->
+  <section class="section">
+    <div class="section-header">
+      <p class="section-label">Essentials</p>
+      <h2 class="section-title">What to Pack</h2>
+    </div>
+
+    <div class="service-grid">
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M21.41 11.58l-9-9C12.05 2.22 11.55 2 11 2H4c-1.1 0-2 .9-2 2v7c0 .55.22 1.05.59 1.42l9 9c.36.36.86.58 1.41.58.55 0 1.05-.22 1.41-.59l7-7c.37-.36.59-.86.59-1.41 0-.55-.23-1.06-.59-1.42zM5.5 7C4.67 7 4 6.33 4 5.5S4.67 4 5.5 4 7 4.67 7 5.5 6.33 7 5.5 7z"/></svg>
+        </div>
+        <span class="service-name">Light Clothes</span>
+        <span class="service-desc">Cotton & linen for the heat</span>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+        </div>
+        <span class="service-name">Sunscreen</span>
+        <span class="service-desc">SPF 50+ essential</span>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+        </div>
+        <span class="service-name">Sunglasses</span>
+        <span class="service-desc">Polarized recommended</span>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24"><path d="M7 2v11h3v9l7-12h-4l4-8z"/></svg>
+        </div>
+        <span class="service-name">Cash</span>
+        <span class="service-desc">Small vendors prefer cash</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- SAFETY TIPS -->
+  <section class="section">
+    <div class="section-header">
+      <p class="section-label">Important</p>
+      <h2 class="section-title">Safety Tips</h2>
+    </div>
+
+    <div class="accordion">
+      <div class="accordion-item open">
+        <div class="accordion-header">
+          <span class="accordion-question">Driving & Road Safety</span>
+          <div class="accordion-icon">
+            <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+          </div>
+        </div>
+        <div class="accordion-content">
+          <p class="accordion-answer">Goa's roads can be busy. Always wear seatbelts, don't drink and drive (strict laws), and use registered taxis like us for safety. Avoid riding motorcycles at night without proper gear.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-question">Beach Safety</span>
+          <div class="accordion-icon">
+            <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+          </div>
+        </div>
+        <div class="accordion-content">
+          <p class="accordion-answer">Swim only at patrolled beaches. Watch for strong currents at Vagator and Arambol. Don't swim under the influence. Apply sunscreen regularly - the Goan sun is stronger than expected!</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-question">Water & Food</span>
+          <div class="accordion-icon">
+            <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+          </div>
+        </div>
+        <div class="accordion-content">
+          <p class="accordion-answer">Drink bottled water only. Goan cuisine is delicious but can be spicy - start with small portions. Fresh seafood is excellent but ensure it's from reputable places.</p>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <div class="accordion-header">
+          <span class="accordion-question">Valuables & Documents</span>
+          <div class="accordion-icon">
+            <svg viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+          </div>
+        </div>
+        <div class="accordion-content">
+          <p class="accordion-answer">Keep photocopies of ID and passport. Don't flash cash or electronics on the beach. Use hotel safes for valuables. Keep emergency contact numbers saved.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- LOCAL TIPS -->
+  <section class="section">
+    <div class="section-header">
+      <p class="section-label">Insider Tips</p>
+      <h2 class="section-title">Go Local</h2>
+    </div>
+
+    <div class="glass-card" style="padding: 20px;">
+      <div style="display: grid; gap: 16px; font-size: 13px; color: var(--text-secondary); line-height: 1.6;">
+        <p>🍽️ <strong>Eat local:</strong> Try Goan fish curry, vindaloo, and bebinca. Visit shacks away from the beach for authentic food at local prices.</p>
+        <p>🌅 <strong>Sunrise vs Sunset:</strong> North Goa is for sunset parties. South Goa is for peaceful sunrises.</p>
+        <p>🛍️ <strong>Shopping:</strong> Anjuna flea market (Wednesdays) is great for souvenirs. Flea at Mapusa (Fridays) for local goods.</p>
+        <p>⏰ <strong>Timing:</strong> Visit popular beaches early morning or late afternoon to avoid crowds. Dudhsagar is best visited in the morning.</p>
+        <p>📱 <strong>SIM Card:</strong> Get a local SIM (Jio/Airtel) at the airport for cheap data and calls.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CALL TO ACTION -->
+  <section class="section">
+    <div class="glass-card" style="padding: 32px; text-align: center;">
+      <h3 style="font-family: var(--font-display); font-size: 24px; margin-bottom: 12px;">Need a Ride?</h3>
+      <p style="font-size: 13px; color: var(--text-secondary); margin-bottom: 20px;">Let us take you around safely. We know every hidden gem!</p>
+      <a href="https://wa.me/917709937904?text=Hi%2C%20I%20have%20a%20question%20about%20traveling%20in%20Goa." class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+        Chat with Us
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p class="footer-logo">TAXI HUB</p>
+    <p class="footer-tagline">Driven by Trust. Defined by Care.</p>
+    <div class="footer-links">
+      <a href="/" class="footer-link">Home</a>
+      <a href="/fleet" class="footer-link">Fleet</a>
+      <a href="/sightseeing" class="footer-link">Sightseeing</a>
+      <a href="/contact" class="footer-link">Contact</a>
+      <a href="/privacy" class="footer-link">Privacy</a>
+      <a href="/terms" class="footer-link">Terms</a>
+    </div>
+    <p class="footer-copy">© 2025 Taxi Hub, Goa. All rights reserved.</p>
+  </footer>
+
+  <div class="footer-spacer"></div>
+
+  <!-- BOTTOM NAVIGATION -->
+  <nav class="bottom-nav glass-bottom-nav">
+    <a href="/" class="nav-item">
+      <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+      <span>Home</span>
+    </a>
+    <a href="/fleet" class="nav-item">
+      <svg viewBox="0 0 24 24"><path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"/></svg>
+      <span>Fleet</span>
+    </a>
+    <a href="/sightseeing" class="nav-item">
+      <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+      <span>Sightsee</span>
+    </a>
+    <a href="/contact" class="nav-item">
+      <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+      <span>Contact</span>
+    </a>
+  </nav>
+
+</div>
+<script src="../js/main.js"></script>
+</body>
+</html>
